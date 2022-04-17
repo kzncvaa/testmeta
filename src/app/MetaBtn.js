@@ -60,7 +60,7 @@ export default function MetaMaskAuth({ onAddressChanged }) {
 
 function Connect({ setUserAddress }) {
     if (isMobileDevice()) {
-        const dappUrl = "localhost:8080";
+        const dappUrl = "kzncvaa.github.io/testmeta/";
         // TODO enter your dapp URL. For example: https://uniswap.exchange. (don't enter the "https://")
         const metamaskAppDeepLink = "https://metamask.app.link/dapp/" + dappUrl;
         return (
